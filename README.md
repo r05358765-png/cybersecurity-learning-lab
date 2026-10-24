@@ -6,16 +6,21 @@ My hands-on learning space for cybersecurity, Python, and AI security. I am buil
 
 Develop the skills to work in AI security engineering, model defense, and authorized AI red teaming.
 
+## Projects
+
+### [File Integrity Checker](projects/file-integrity-checker/README.md)
+
+A Python command-line tool that saves a SHA-256 baseline and detects later file changes. Includes a sample file and a Windows walkthrough. Code prepared with AI assistance and tested for unchanged files, changed files, baseline overwrite prevention, missing files, wrong-file baselines, malformed baselines, and empty files. My own practice run and observations are still pending.
+
 ## Learning roadmap
 
 - [x] Create this repository and add a Python .gitignore.
 - [x] Write an introduction and learning roadmap.
-- [ ] Build a Python file integrity checker using SHA-256.
+- [x] Add a working Python file integrity checker using SHA-256.
+- [ ] Run the checker myself and document what I learned.
 - [ ] Analyze sample authentication logs for failed login patterns.
 - [ ] Document a Linux permissions practice lab.
 - [ ] Explore prompt injection and defensive controls in a local AI practice environment.
-
-These projects are planned; completed work will be linked here as it is added.
 
 ## How I will document each project
 
@@ -27,8 +32,4 @@ These projects are planned; completed work will be linked here as it is added.
 
 ## Practice boundaries
 
-All security exercises are for systems I own or have explicit permission to test. Examples will use synthetic or sanitized data. Passwords, API keys, private records, and other sensitive information do not belong in this public repository.
-
-## Status
-
-Getting started. This repository is a record of learning and practice, with progress supported by the projects and notes published here.
+All security exercises are for systems I own or have explicit permission to test. Examples use synthetic or sanitized data. Passwords, API keys, private records, and other sensitive information do not belong in this public repository.
